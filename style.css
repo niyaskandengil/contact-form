@@ -10,13 +10,14 @@ body{
   display: flex;
   padding: 0 10px;
   min-height: 100vh;
-  background: #0D6EFD;
+  /* background: #0D6EFD; */
+  background: #00a98f;
   align-items: center;
   justify-content: center;
 }
 ::selection{
   color: #fff;
-  background: #0D6EFD;
+  background: #00a98f;
 }
 .wrapper{
   width: 715px;
@@ -74,11 +75,11 @@ form .message textarea{
 .field input:focus,
 .message textarea:focus{
   padding-left: 47px;
-  border: 2px solid #0D6EFD;
+  border: 2px solid #00a98f;
 }
 .field input:focus ~ i,
 .message textarea:focus ~ i{
-  color: #0D6EFD;
+  color: #00a98f;
 }
 form .message{
   position: relative;
@@ -113,11 +114,11 @@ form .button-area{
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #0D6EFD;
+  background: #00a98f;
   transition: background 0.3s ease;
 }
 .button-area button:hover{
-  background: #025ce3;
+  background: #00a98f;
 }
 .button-area span{
   font-size: 17px;
